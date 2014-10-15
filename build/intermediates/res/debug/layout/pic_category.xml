@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zoompic">
+
+    <Button
+        android:id="@+id/bWildlife"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bLandmarks"
+        android:layout_alignRight="@+id/bLandmarks"
+        android:layout_below="@+id/bLandmarks"
+        android:text="Wildlife" />
+
+    <TextView
+        android:id="@+id/tvCongrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="Choose a Category"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fffdffff" />
+
+    <Button
+        android:id="@+id/bLandmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvCongrats"
+        android:layout_below="@+id/tvCongrats"
+        android:layout_marginTop="32dp"
+        android:text="Monuments &amp; Landmarks" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="More Categories To Come In The Next Few Updates"
+        android:id="@+id/textView"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="#ff000000"
+        android:textColor="#ffffffff" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/tmmoo_000/Documents/Android%20Projects/ZoomPic/res/layout/pic_category.xml -->

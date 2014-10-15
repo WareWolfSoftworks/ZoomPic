@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\assets" />
+    </dataSet>
+    <dataSet config="20.0.0" >
+        <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets" >
+            <file
+                name="pics/landmarks/colosseum.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\colosseum.jpg" />
+            <file
+                name="pics/landmarks/eiffel_tower.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\eiffel_tower.jpg" />
+            <file
+                name="pics/landmarks/golden_gate.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\golden_gate.jpg" />
+            <file
+                name="pics/landmarks/grand_canyon.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\grand_canyon.jpg" />
+            <file
+                name="pics/landmarks/mount_rushmore.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\mount_rushmore.jpg" />
+            <file
+                name="pics/landmarks/pyramids.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\pyramids.jpg" />
+            <file
+                name="pics/landmarks/statue_of_liberty.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\statue_of_liberty.jpg" />
+            <file
+                name="pics/landmarks/stonehenge.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\stonehenge.jpg" />
+            <file
+                name="pics/landmarks/taj_mahal.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\taj_mahal.jpg" />
+            <file
+                name="pics/landmarks/washington_monument.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\landmarks\washington_monument.jpg" />
+            <file
+                name="pics/wildlife/giraffe.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\giraffe.jpg" />
+            <file
+                name="pics/wildlife/gorilla.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\gorilla.jpg" />
+            <file
+                name="pics/wildlife/grasshopper.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\grasshopper.jpg" />
+            <file
+                name="pics/wildlife/hippo.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\hippo.jpg" />
+            <file
+                name="pics/wildlife/kangaroo.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\kangaroo.jpg" />
+            <file
+                name="pics/wildlife/panda.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\panda.jpg" />
+            <file
+                name="pics/wildlife/rabbit.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\rabbit.jpg" />
+            <file
+                name="pics/wildlife/racoon.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\racoon.jpg" />
+            <file
+                name="pics/wildlife/snake.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\snake.jpg" />
+            <file
+                name="pics/wildlife/tiger.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\tiger.jpg" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build-types\debug\assets" />
+    </dataSet>
+
+</merger>

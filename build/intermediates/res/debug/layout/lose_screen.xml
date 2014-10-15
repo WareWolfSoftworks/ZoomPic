@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zoompic">
+
+    <TextView
+        android:id="@+id/tvTimerExpired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="The Timer Expired."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/tvCorrectAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:text="The Correct Answer Was ........."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@+id/tvTimerExpired"
+        android:layout_centerHorizontal="true"
+        android:background="#ff000000"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Image"
+        android:id="@+id/bNextL"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="142dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/tmmoo_000/Documents/Android%20Projects/ZoomPic/res/layout/lose_screen.xml -->

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zoompic">
+
+    <TextView
+        android:id="@+id/tvCongrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="149dp"
+        android:text="Congratulations You Got It!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#ff000000"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:id="@+id/tvTimeRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/tvCongrats"
+        android:text="Display Time Remaining"
+        android:textColor="#ffffffff"
+        android:background="#ff000000" />
+
+
+    <TextView
+        android:id="@+id/tvGuesses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/tvTimeRemaining"
+        android:text="Display the Amount of Guesses It Took"
+        android:textColor="#ffffffff"
+        android:background="#ff000000" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Display Score"
+        android:layout_below="@+id/tvZooms"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="#ff000000" />
+
+    <Button
+        android:id="@+id/bNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:text="Next Image"
+        android:layout_below="@+id/tvScore"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Number of Zooms"
+        android:id="@+id/tvZooms"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/tvGuesses"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:background="#ff000000" />
+
+</RelativeLayout>

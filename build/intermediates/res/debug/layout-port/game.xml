@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/etGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:ems="10"
+        android:hint="Enter Your Best Guess"
+        android:singleLine="true"
+        android:inputType="text"
+        android:imeActionLabel="Done"
+        android:imeOptions="actionDone"/>
+
+    <Button
+        android:id="@+id/bGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/etGuess"
+        android:text="Submit Guess"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/bZoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Zoom Out" />
+
+    <WebView
+        android:id="@+id/wvPicture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bGuess"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/bZoom" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bZoom"
+        android:layout_alignBottom="@+id/bZoom"
+        android:layout_alignParentLeft="true"
+        android:text="Timer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout><!-- From: file:/C:/Users/tmmoo_000/Documents/Android%20Projects/ZoomPic/res/layout-port/game.xml -->
