@@ -4,6 +4,9 @@
     <dataSet config="20.0.0" >
         <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\assets" />
     </dataSet>
+    <dataSet config="5.2.08" >
+        <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.2.08\assets" />
+    </dataSet>
     <dataSet config="20.0.0" >
         <source path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\assets" />
     </dataSet>
@@ -61,8 +64,8 @@
                 name="pics/wildlife/rabbit.jpg"
                 path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\rabbit.jpg" />
             <file
-                name="pics/wildlife/racoon.jpg"
-                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\racoon.jpg" />
+                name="pics/wildlife/raccoon.jpg"
+                path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\raccoon.jpg" />
             <file
                 name="pics/wildlife/snake.jpg"
                 path="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\assets\pics\wildlife\snake.jpg" />

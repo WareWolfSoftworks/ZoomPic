@@ -298,21 +298,183 @@ public class Game extends Activity implements OnClickListener{
 		}
 	}
 	private void wildlifeAnswers() {
-		// TODO Auto-generated method stub
-		guesses = 0;
-		
-		if (category.get(index).equals("file:///android_asset/pics/wildlife/giraffe.jpg")){
-			guesses++;
-			if (answer.equals("giraffe")){
-				Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
-	    		  startActivity(intent);
-			}else{
-				Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
-						Toast.LENGTH_LONG).show();
-			}
-		}
+        // TODO Auto-generated method stub
+        guesses++;
 
-}
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/giraffe.jpg")) {
+            if (answer.equals("giraffe") || answer.equals("the giraffe") || answer.equals("girafe")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/gorilla.jpg")) {
+            if (answer.equals("gorilla") || answer.equals("the gorilla")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/grasshopper.jpg")) {
+            if (answer.equals("grasshopper") || answer.equals("the grasshopper") || answer.equals("grass hopper")
+                    || answer.equals("the grass hopper") || answer.equals("grasshoper") || answer.equals("grass hoper")){
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/hippo.jpg")) {
+            if (answer.equals("hippo") || answer.equals("the hippo") || answer.equals("hipo") || answer.equals("the hipo")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/kangaroo.jpg")) {
+            if (answer.equals("kangaroo") || answer.equals("the kangaroo")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/panda.jpg")) {
+            if (answer.equals("panda") || answer.equals("the panda")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/rabbit.jpg")) {
+            if (answer.equals("rabbit") || answer.equals("the rabbit") || answer.equals("jack rabbit") || answer.equals("bunny rabbit")
+                    || answer.equals("bunny")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/raccoon.jpg")) {
+            if (answer.equals("raccoon") || answer.equals("the raccoon") || answer.equals("racoon")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/snake.jpg")) {
+            if (answer.equals("snake") || answer.equals("green snake") || answer.equals("grass snake")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+        if (category.get(index).equals("file:///android_asset/pics/wildlife/tiger.jpg")) {
+            if (answer.equals("tiger") || answer.equals("bengal tiger") || answer.equals("bengal")) {
+                timer.cancel();
+                Intent intent = new Intent(getBaseContext(), ScoreActivity.class);
+                intent.putExtra("guesses", guesses);
+                intent.putExtra("strings", category);
+                intent.putExtra("seconds", seconds);
+                intent.putExtra("zooms", zooms);
+                intent.putExtra("cumulativeScore", cumulativeScore);
+                intent.putExtra("index", index);
+                startActivity(intent);
+                finish();
+            } else {
+                Toast.makeText(getApplicationContext(), "That is Incorrect. Try Again.",
+                        Toast.LENGTH_LONG).show();
+            }
+        }
+    }
+
     @Override
     public void onBackPressed() {
     }

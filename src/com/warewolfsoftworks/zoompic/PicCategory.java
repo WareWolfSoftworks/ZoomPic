@@ -27,13 +27,20 @@ public class PicCategory extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		Button landmarks = (Button) findViewById(R.id.bLandmarks);
 		Button wildlife = (Button) findViewById(R.id.bWildlife);
+        Button mainMenu = (Button) findViewById(R.id.bMain);
 		landmarks.setOnClickListener(this);
 		wildlife.setOnClickListener(this);
+        mainMenu.setOnClickListener(this);
 	}
 
 	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
+        if (v.getId() == R.id.bMain){
+            Intent main = new Intent(this, MainActivity.class);
+            startActivity(main);
+            finish();
+        }
 		if (v.getId() == R.id.bLandmarks){
 			Intent intent = new Intent(this, Game.class);
             ArrayList<String> landmarks = new ArrayList<String>(
@@ -52,9 +59,18 @@ public class PicCategory extends Activity implements OnClickListener {
 		
 		if (v.getId() == R.id.bWildlife){
 			Intent intent = new Intent(this, Game.class);
-			String[] wildlife = new String[] {"wildlife", "file:///android_asset/pics/wildlife/giraffe.jpg"};
+            ArrayList<String> wildlife = new ArrayList<String>(
+                    Arrays.asList("wildlife", "file:///android_asset/pics/wildlife/giraffe.jpg",
+                            "file:///android_asset/pics/wildlife/gorilla.jpg", "file:///android_asset/pics/wildlife/grasshopper.jpg",
+                            "file:///android_asset/pics/wildlife/hippo.jpg", "file:///android_asset/pics/wildlife/kangaroo.jpg",
+                            "file:///android_asset/pics/wildlife/panda.jpg", "file:///android_asset/pics/wildlife/rabbit.jpg",
+                            "file:///android_asset/pics/wildlife/raccoon.jpg", "file:///android_asset/pics/wildlife/snake.jpg",
+                            "file:///android_asset/pics/wildlife/tiger.jpg"));
+            Collections.shuffle(wildlife.subList(1, 11));
 			intent.putExtra("strings", wildlife);
+            intent.putExtra("index", index);
 			startActivity(intent);
+            finish();
 		}
 	}
 

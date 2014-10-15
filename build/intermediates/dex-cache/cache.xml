@@ -2,6 +2,12 @@
 <pre-dex-items>
 
     <item
+        dex="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\pre-dexed\debug\classes-c8998ef206dd84f14a72b4f4284d7eb172f3de4a.jar"
+        jar="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.2.08\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1ed7a7a05185651f9af41ad93711cb96b66f331c"/>
+    <item
         dex="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\pre-dexed\debug\classes-92ca287586daac3c579cc881c101c56a47a963c8.jar"
         jar="C:\Users\tmmoo_000\Documents\Android Projects\ZoomPic\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
         jumboMode="false"
